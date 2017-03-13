@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100%
+}
+
+/*MOBILE CODE*/
+div.mobile3 {
+    width:100%;
+    float: left;
+    padding: 1em;
+}
+
+/*TABLET CODE*/
+@media screen and (min-width:768px) {
+    div.mobile3 {
+    width:50%;
+        
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TEXT*/
+
+body {
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.5;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 4;
+    background-color:#ffffe6;
+}
+
+nav {
+    display: inline;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0em 2.5em;
+    margin-top: 1em;
+}
+
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 50pt;
+    text-align: center;
+    margin: 0% 0% 0% 0%;
+}
+h2 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 20pt;
+    text-align: center;
+    margin: 0% 0% 0% 0%;
+}
+
+
+h3 {
+    background: yellow;
+    color: white;
+    font-size: 20pt;
+    font-family: cursive;
+}
+
+h4 {
+    background: green;
+    color: white;
+    font-size: 20pt;
+    font-family: cursive;
+}
+
+footer { font-family: inherit;
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+.social-media{
+    margin-left:1em;
+    margin-right:1em;
+
+}
+
+h5 {
+    font-family: inherit;
+    text-align: center;
+}
+
+.celebrating-our-hair {
+    text-align: center;
+}
+
+
+/*PHOTOSHOOT PAGE IMAGES*/
+
+.photoshootpage {
+    display: inline-block;
+}
+
